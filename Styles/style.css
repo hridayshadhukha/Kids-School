@@ -88,8 +88,50 @@ ul, li, a{
   display: none;
 }
 
+/* Start Banner Section */
 
-/* Responsive Styles */
+.banner{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-items{
+  margin-right: 50px;
+}
+
+.heading-2{
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.paragraph-1{
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.br1{
+  display: none;
+}
+.btn-2{
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 10px 60px;
+  border-radius: 12px;
+  border: none;
+  background-color: #111111;
+  margin-top: 24px;
+}
+
+
+/* Responsive For Mobile */
 
 @media screen and (max-width: 576px) {
   .heading-1,
@@ -113,6 +155,40 @@ ul, li, a{
  }
  .hr{
   display: block;
+}
+
+/* Banner Section */
+
+.banner-container{
+  flex-direction: column;
+  width: 100%;
+}
+.banner-items{
+  order: 1;
+  text-align: center;
+  margin-right: 0;
+}
+.heading-2{
+  font-size: 2rem;
+  line-height: 40px;
+}
+.paragraph-1{
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.br1{
+  display: block;
+}
+.br2{
+  display: none;
+}
+.btn-2{
+  padding: 6px 24px;
+  border-radius: 8px;
+}
+.image{
+  width: 100%;
+  text-align: center;
 }
   
 }
