@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -99,10 +98,20 @@ a {
   display: none;
 }
 
+/* marquee tag */
+
+.marquee {
+  font-size: 1.30rem;
+  font-weight: 700;
+  margin-top: 30px;
+  color: #FEA301;
+  scrollamount: 15;
+}
+
 /* Start Banner Section */
 
 .banner {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .banner-container {
@@ -148,7 +157,7 @@ a {
 
 /* End Banner Section */
 
-/* Start Curriculum Section */
+/* Start Standard Curriculum Section */
 
 .curriculum {
   width: 100%;
@@ -173,29 +182,35 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.img-1{
+
+.img-1 {
   height: 141px;
   background-image: url('../assets/Vector.png');
 }
-.img-2{
+
+.img-2 {
   height: 136px;
   background-image: url('../assets/Vector-1.png');
 }
+
 .box {
-  max-width: 368px;
+  max-width: 90%;
   height: 477px;
   border-radius: 19px;
   text-align: center;
   justify-content: center;
 }
+
 .box-1 {
   background: linear-gradient(#DEF5FF, #FFFFFF 100px);
   border: 1px solid #DEF5FF;
+  margin-right: 30px;
 }
 
 .box-2 {
   background: linear-gradient(#FFF4DC, #FFFFFF 100px);
   border: 1px solid #FFF4DC;
+  margin-right: 30px;
 }
 
 .box-3 {
@@ -206,11 +221,13 @@ a {
 .box-content {
   margin: 50px 20px;
 }
+
 .heading-3 {
   font-size: 2.875rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
+
 .heading-4 {
   margin-top: 30px;
   font-size: 1.5rem;
@@ -355,7 +372,8 @@ a {
   background-color: #FFFFFF;
   border-radius: 16px;
 }
-.boxx{
+
+.boxx {
   display: none;
 }
 
@@ -408,67 +426,83 @@ a {
 
 /* Start Footer Section */
 
-.footer{
+.footer {
   width: 100%;
   height: 550px;
   background-color: #01ACFD;
 }
-.footer-area{
+
+.footer-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 187px;
 }
-.footer-first{
+
+.footer-first {
   display: flex;
   align-items: center;
 }
-.footer-content-1{
+
+.footer-content-1 {
   margin: 148px 0;
 }
-.heading-8{
+
+.heading-8 {
   color: #FFFFFF;
   font-size: 2.625rem;
   font-weight: 700;
 }
-.paragraph-4{
+
+.paragraph-4 {
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 400;
   margin-top: 38px;
 }
-.heading-9{
+
+.heading-9 {
   color: #FFFFFF;
   font-size: 1.5rem;
   font-weight: 700;
 }
-.link-item ul, li{
+
+.link-item ul,
+li {
   display: block;
   list-style: none;
 }
-.link-item ul li:first-child a{
+
+.link-item ul li:first-child a {
   font-weight: 500;
 }
-.link-item ul{
+
+.link-item ul {
   margin-top: 32px;
 }
-.link-item li{
+
+.link-item li {
   margin-top: 20px;
 }
-.link-item ul, li, a{
+
+.link-item ul,
+li,
+a {
   margin-top: px;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 500;
 }
-.heading-10{
+
+.heading-10 {
   color: #FFFFFF;
   font-size: 1.625rem;
   font-weight: 700;
   margin-top: -115px;
 }
-.icons{
+
+.icons {
   margin-top: 20px;
 }
 
@@ -514,7 +548,7 @@ a {
 
   .bars {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .hr {
@@ -561,15 +595,19 @@ a {
   .image {
     text-align: center;
   }
-.img-1{
-  max-width: 100%;
-}
-  .box {
-    width: 90%;
+
+  .img-1 {
+    max-width: 100%;
   }
 
-  /* Start Curriculum Section */
+
+  /* Standard Curriculum Section */
+
   .curriculum-container {
+    width: 100%;
+  }
+
+  .box {
     width: 100%;
   }
 
@@ -580,6 +618,14 @@ a {
 
   .box {
     margin-top: 20px;
+  }
+
+  .box-1 {
+    margin-right: 0;
+  }
+
+  .box-2 {
+    margin-right: 0;
   }
 
   .box-container {
@@ -596,10 +642,11 @@ a {
   .stories {
     background: linear-gradient(#FFFFFF 400px, rgb(255, 234, 199) 900px);
   }
-.stories-container{
-  height: 1300px;
-  width: 100%;
-}
+
+  .stories-container {
+    height: 1300px;
+    width: 100%;
+  }
 
   .stories {
     margin-top: 160%;
@@ -612,6 +659,7 @@ a {
   .second {
     margin: 20px;
   }
+
   .image-res {
     width: 100%;
   }
@@ -619,42 +667,49 @@ a {
   .box-5 {
     max-width: 100%;
   }
-  .boxx{
+
+  .boxx {
     display: block;
   }
+
   .first {
     display: none;
   }
-  .button-6{
+
+  .button-6 {
     margin-top: 40px;
   }
-  
-/*  */
 
-  .footer{
+  /*  */
+
+  .footer {
     height: 100%;
     max-width: 100%;
   }
- .footer-area{
+
+  .footer-area {
     flex-direction: column;
     margin: 0 0;
-  } 
-  .footer-content-1{
+  }
+
+  .footer-content-1 {
     margin: 0 0;
     margin-top: 30px;
-    margin-left: -50px;
+    margin-left: -150px;
   }
-  .footer-first{
-    margin-left: -15px;
+
+  .footer-first {
+    margin-left: -10px;
   }
-  .footer-content-2{
+
+  .footer-content-2 {
     margin-top: 30px;
-    margin-left: -280px;
+    margin-left: -360px;
   }
-  
-  .footer-content-3{
+
+  .footer-content-3 {
     margin-top: 150px;
-    margin-left: -255px;
+    margin-left: -330px;
   }
 
 }
