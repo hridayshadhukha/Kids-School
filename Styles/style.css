@@ -84,7 +84,7 @@ a {
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 10px 60px;
+  padding: 15px 60px;
   border-radius: 12px;
   border: none;
   background-color: #FEA301;
@@ -134,7 +134,7 @@ a {
   color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 10px 60px;
+  padding: 15px 60px;
   border-radius: 12px;
   border: none;
   background-color: #111111;
@@ -151,7 +151,7 @@ a {
 
 .curriculum {
   width: 100%;
-  height: 770px;
+  height: 769px;
   background-image: url('../assets/bg.png');
 }
 
@@ -172,14 +172,21 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
+.img-1{
+  height: 141px;
+  background-image: url('../assets/Vector.png');
+}
+.img-2{
+  height: 136px;
+  background-image: url('../assets/Vector-1.png');
+}
 .box {
-  width: 368px;
+  max-width: 368px;
   height: 477px;
   border-radius: 19px;
   text-align: center;
+  justify-content: center;
 }
-
 .box-1 {
   background: linear-gradient(#DEF5FF, #FFFFFF 100px);
   border: 1px solid #DEF5FF;
@@ -198,13 +205,11 @@ a {
 .box-content {
   margin: 50px 20px;
 }
-
 .heading-3 {
   font-size: 2.875rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
-
 .heading-4 {
   margin-top: 30px;
   font-size: 1.5rem;
@@ -277,7 +282,7 @@ a {
 /* Start Our Stories Section */
 
 .stories {
-  background: linear-gradient(#FFFFFF, rgb(255, 239, 211) 400px);
+  background: linear-gradient(#FFFFFF, rgb(252, 228, 187) 400px);
 }
 
 .stories-container {
@@ -349,6 +354,9 @@ a {
   background-color: #FFFFFF;
   border-radius: 16px;
 }
+.boxx{
+  display: none;
+}
 
 .btn-5 {
   padding: 14px 20px;
@@ -391,7 +399,7 @@ a {
   text-align: center;
   background-color: #000000;
   color: #FFFFFF;
-  padding: 10px 60px;
+  padding: 15px 60px;
   border-radius: 12px;
   font-size: 1.25rem;
   font-weight: 700;
@@ -505,7 +513,7 @@ a {
 
   .bars {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .hr {
@@ -527,6 +535,7 @@ a {
   .heading-2 {
     font-size: 2rem;
     line-height: 40px;
+    margin-top: 25px;
   }
 
   .paragraph-1 {
@@ -582,7 +591,14 @@ a {
   /*  */
 
   .stories {
-    margin-top: 180%;
+    background: linear-gradient(#FFFFFF 400px, rgb(255, 234, 199) 900px);
+  }
+.stories-container{
+  height: 1300px;
+}
+
+  .stories {
+    margin-top: 150%;
   }
 
   .total {
@@ -600,15 +616,21 @@ a {
   .box-5 {
     width: 100%;
   }
-
+  .boxx{
+    display: block;
+  }
   .first {
     display: none;
+  }
+  .button-6{
+    margin-top: 40px;
   }
   
 /*  */
 
   .footer{
     height: 100%;
+    
   }
  .footer-area{
     flex-direction: column;
@@ -617,18 +639,19 @@ a {
   .footer-content-1{
     margin: 0 0;
     margin-top: 30px;
+    margin-left: -50px;
   }
-  .footer-content-2,
-  .footer-content-3{
-    margin-left: -225px;
+  .footer-first{
+    margin-left: -15px;
   }
-
   .footer-content-2{
     margin-top: 30px;
+    margin-left: -280px;
   }
   
   .footer-content-3{
     margin-top: 150px;
+    margin-left: -255px;
   }
 
 }
